@@ -13,6 +13,7 @@ body {
     /* padding: 20px; */
     position: sticky;
     top: 0;
+    background-color: white;
 }
 #header-img {
     width: 20%;
@@ -84,10 +85,69 @@ body {
   display: flex;
   align-items: center;
 }
-i::before {
- content: "\f0d1";
+#video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
+#video iframe{
+    width: 70%;
+    height: 50vh;
+}
+.box-con {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 10px;
+   box-shadow: 1px 1px 10px 1px rgba(110, 109, 109, 0.507);
+}
+.box span {
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    /* padding: 10px; */
+}
+.box ul {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    width: 80%;
+    word-wrap: break-word;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.box button {
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    margin: 20px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.footer-link {
+    width: 300px;
+    display: flex;
+ align-items: center;
+    justify-content: space-around;
+}
 @media screen and (max-width: 967px) {
     #header {
         width: 90%;
